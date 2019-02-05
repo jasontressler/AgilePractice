@@ -31,6 +31,11 @@ public class InchesToFeet {
         System.out.println(totalInches + " in feet is " + feet + " feet and "
                 + inches + " inches.");
         
+        // Added code to convert to yards
+        double yards;
+        final double INCHESPERYARD = 36;
+        yards = totalInches / INCHESPERYARD;
+        System.out.println(totalInches + " is equal to " + yards + " yards.");
     }
     
 }
